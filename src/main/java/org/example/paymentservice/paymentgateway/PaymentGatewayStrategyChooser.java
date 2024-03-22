@@ -14,6 +14,6 @@ public class PaymentGatewayStrategyChooser {
 
     public PaymentGateway getBestPaymentGateway() {
         //H/W - write logic for randomly picking PG
-        return razorpayPaymentGateway;
+        return stripePaymentGateway;
     }
 }
